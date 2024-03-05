@@ -1,0 +1,83 @@
+.hero {
+  background: url(../images/hero.svg) no-repeat center;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+.hero__title {
+  max-width: 650px;
+  font-size: 72px;
+  line-height: 74px;
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+
+.hero__name {
+  font-size: 26px;
+  line-height: 34px;
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+
+.hero__desc {
+  max-width: 250px;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+
+@media (max-width: 820px) {
+  .hero {
+    gap: 150px;
+  }
+  .hero__title {
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 555px) {
+  .hero {
+    gap: 120px;
+  }
+  .hero__title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .hero__name {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .hero__desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 410px) {
+  .hero {
+    gap: 100px;
+    padding: 10px;
+  }
+  .hero__title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .hero__name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .hero__desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

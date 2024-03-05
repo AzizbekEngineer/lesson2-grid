@@ -1,0 +1,129 @@
+.help {
+  padding: 80px 0;
+}
+.help__title {
+  text-align: center;
+  font-size: 45px;
+  line-height: 45px;
+  color: var(--primaryColor);
+  font-weight: 400;
+}
+.help__desc {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--primaryColor);
+  font-weight: 400;
+}
+.help__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 30px;
+}
+
+.help__card__img {
+  width: 100%;
+}
+.help__card__img img {
+  width: 100%;
+}
+
+.help__card__title {
+  padding: 10px 0 20px;
+  font-size: 35px;
+  line-height: 40px;
+  color: var(--primaryColor);
+}
+
+.help__card__desc {
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--primaryColor);
+  opacity: 0.5;
+}
+
+.help__box {
+  width: 100%;
+  margin-top: 50px;
+  background: var(--greenColor);
+  border-radius: 20px;
+  padding: 20px;
+}
+.help__box__desc {
+  font-size: 41px;
+  line-height: 46px;
+  color: var(--primaryColor);
+}
+
+@media (max-width: 1200px) {
+  .help__title,
+  .help__box__desc {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .help__desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .help__title,
+  .help__box__desc {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .help__desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .help__card__title {
+    padding: 8px 0 16px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .help__card__desc {
+    padding: 6px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 700px) {
+  .help {
+    padding: 30px 0;
+  }
+  .help__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .help__title,
+  .help__box__desc {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .help__desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .help__box {
+    margin-top: 20px;
+  }
+  .help__card__title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .help__card__desc {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .help__box__desc {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

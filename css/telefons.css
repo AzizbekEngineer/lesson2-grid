@@ -1,0 +1,104 @@
+.telefons {
+  padding: 80px 0;
+  text-align: center;
+}
+.telefon__title {
+  font-size: 52px;
+  line-height: 58px;
+  color: var(--primaryColor);
+}
+.telefon__desc {
+  padding: 30px 0;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--primaryColor);
+  opacity: 0.5;
+}
+
+.telefon__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 30px;
+}
+.telefon__card__img {
+  background: #f1f1f1;
+  border: 1px solid #e2e3e6;
+  border-radius: 30px;
+}
+.telefon__card__img img {
+  width: 40%;
+}
+
+.telefon__card__name {
+  padding: 20px 0 18px;
+  font-size: 26px;
+  line-height: 34px;
+  color: var(--primaryColor);
+}
+.telefon__card__desc {
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--primaryColor);
+}
+@media (max-width: 1200px) {
+  .telefon__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .telefon__desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .telefons {
+    padding: 20px 0 50px;
+  }
+  .telefon__title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .telefon__desc {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .telefon__card__name {
+    padding: 15px 0 10px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .telefon__card__desc {
+    padding: 6px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .telefon__card__img {
+    border-radius: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .telefon__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .telefon__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .telefon__desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .telefon__card__name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .telefon__card__desc {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
