@@ -50,3 +50,59 @@
   line-height: 25px;
   color: var(--primaryColor);
 }
+
+.price__cards {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.price__card {
+  border: 1px solid #f1f1f1;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.price__card__title {
+  padding: 10px 0 20px;
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--primaryColor);
+}
+
+.price__card__desc {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--primaryColor);
+  opacity: 0.5;
+}
+
+.price__infos .price__card__desc {
+  padding-top: 20px;
+  line-height: 30px;
+  padding: 0 25px;
+}
+.price__sorov {
+  padding: 10px 0 20px;
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--primaryColor);
+}
+.sorov {
+  color: white;
+}
+.green__title {
+  color: var(--greenColor);
+}
+.price__card:nth-child(2) {
+  background: #f1f1f1;
+}
+.price__card:nth-child(3) {
+  background: #000000;
+}
+.desc {
+  color: white;
+}
